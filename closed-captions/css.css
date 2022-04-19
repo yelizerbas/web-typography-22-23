@@ -20,6 +20,9 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-style: italic;
 }
+.voice2 {
+	font-weight: bold;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -93,6 +96,12 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
+}
+
+.p1.on {
+	background: hotpink;
+	color: red;
+	font-size: 200px;
 }
 
 /* **********************************************
