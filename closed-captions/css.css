@@ -116,10 +116,36 @@ Sounds.
 	background: yellow;
 }
 
-iframe {
+/* The moment the class .sound1 is added to the body, the movie makes a turn */
+.sound1 #video-mask {
+	transform: rotate(1turn);
+}
+
+
+/* **********************************************
+Basic layout.
+	Place the video in the center of the page.
+*********************************************  */
+
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+}
+#video-container {
+	margin: auto;
+}
+#video-mask {
+	aspect-ratio: 240.5/100;
+	display: grid;
+	overflow: hidden;
+	align-content: center;
 	transition: 1s;
 }
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
+
+iframe {
+	width: 80vw;
+	height: 53.33333333vw;
+	margin-top: -0.35vw;
 }
