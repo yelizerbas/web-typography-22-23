@@ -1,83 +1,43 @@
-# Web Typography, 2020/2021
+# Onderbouwing Ontwerpkeuzes
+Tijdens het maken van dit project heb ik uiteraard veel ontwerpkeuzes moeten maken. In dit document neem ik jullie mee in mijn ontwerpkeuzes en de onderbouwing van waarom ik deze keuzes heb gemaakt. Zo hoop ik mijn gedachtegang helder te kunnen maken!
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
 
-Dat kan visueel sterker. 
 
-En dat gaan jullie doen.
+## Animaties en Kleur
+Voor dit hele project heb ik verschillende kleuren gebruikt en animaties gemaakt. Ik ga niet alle animaties en kleuren een voor een in detail bespreken, daar is het mondeling voor :) Wel wil ik de basics ervan bespreken. 
 
-## Leerdoelen
+### Kleur
+Ik heb niet heel veel kleur proberen te gebruiken. De reden hiervan is, omdat het een serieuze scene is waarin zelf ook weinig kleur is gebruikt. Dit is (denk ik) met opzet gedaan om de scene een serieuzere tone of voice te geven, dus wilde ik dit ook meenemen in mijn ontwerp. Ik heb geprobeerd om kleuren uit de video zelf te halen met een colourpicker, of kleuren die er dichtbij zitten. 
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+### Animaties
+Ook wilde ik niet te gek doen met de animaties. Mijn doel was vooral om te bedenken: wat voor animaties kan ik toevoegen die het echt versterken en het geluid representeren, in plaats van dingen bedenken om maar wat te bedenken. Ik vond dit super lastig. Het is niet makkelijk om je te verplaatsen in iemand die doof is als je dat zelf niet bent, ondanks dat ik het nooit hoor als iemand mij aan het roepen is, maar dat ter zijde. 
+Om hierbij te helpen heb ik geprobeerd mijn ogen dicht te doen tijdens het beluisteren van het fragment. Hierbij kon ik mij inbeelden wat ik zou bedenken als ik alleen maar kon horen. Dit heb ik dan weer gebruikt om de geluiden te visualiseren. Daarom zie je veel ‘tril’ animaties en dingen die groter en kleiner worden, omdat ik echt heb geprobeerd te bedenken dat een mens zich zou voorstellen bij een geluid. 
 
-## Oplevering
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+## Typografie
+Aan de typografie heb ik niet veel aangepast. Dit heb ik bewust zo gedaan. Ik wil het zo leesbaar mogelijk houden voor de kijker. De kijkers kunnen het niet horen waardoor lezen en kijken de enige manier is om de film te begrijpen. Hierdoor moet het goed leesbaar zijn. Als dat niet zo is kunnen zij snel belangrijke stukken missen, dus dit wilde ik voorkomen door er niet veel aan te doen. 
 
-## Typografische restricties
+### Hoofdpersonage
+Het font dat ik heb gekozen voor de hoofdpersonage is Brenner Italic. Ik heb deze font gekozen voor een aantal redenen. Als ik naar de stem luister en naar het karakter kijk hoor en zie ik een mens, ondanks dat het een robot is. Wel praat hij erg monotoon en serieus. Daarom viel Sans en Mono gelijk voor mij af. Deze lettertypen zijn erg standaard. Mono had ik bijvoorbeeld wel gekozen als het een echte robot stem had. Sans is ook erg serieus en geeft niet echt het beeld van een echte menselijke stem. Bij een menselijke stem denk je aan hoe veel verschillende tonen en klanken kunnen zijn, dus wilde ik iets wat meer speels. Ik vond Brenner Script dan toch weer te speels. Hij heeft een serieuze toon en dat past daar niet bij. Ik kwam uit bij Brenner. Deze versie van het lettertype heeft wat speelsere letters dan de Mono en Sans versie. Maar is niet even gek als de Script. Het is de goede mix. De reden dat ik voor italic heb gekozen is om het toch nog iets meer ‘menselijk’ te maken dan een standaard recht font. Dan krijg je toch wat meer het gevoel dat het wordt gezegd door een persoon.
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+### Robot
+Voor de robot zou je gelijk denken aan een Mono font, maar dat heb ik toch niet gedaan. Dit is wel het font waar ik gelijk aan dacht tijdens het maken van dit project. Toch heb ik hier niet voor gekozen, met een goede reden. Toen ik eens goed ging luisteren merkte ik dat het niet een echte robot stem had. Je hoort duidelijk dat het is ingesproken door een persoon. Daarom viel Mono toch af. Bij Mono heb je het gevoel alsof het een hele monotone stem is zonder iets van verandering, en dat hoor je toch wel in zijn stem. Op sommige woorden legt hij zelfs nadruk. Daarom heb ik gekozen voor Brenner Sans. Integendeel tot de hoofdpersoon zie je bij deze stem wel een ‘robot’ en geen mens. Hierdoor heb je toch het gevoel dat het een stuk serieuzer en neutraler is. Daarom heb ik ook geen italic gekozen om toch te laten zien dat het wel echt een robot is en geen persoon. 
 
-### Optie 1: Systeemfont
+### Voorbijganger
+De voorbijganger heeft precies dezelfde font als de hoofdpersonage voor precies dezelfde reden. Opmerkelijk aan zijn stukje tekst is wel dat het heel anders is vormgegeven dan de andere twee stemmen in het fragment. De font size is een stuk kleiner en het is rood. Dit komt door de manier waarop hij het zegt. Hij zegt het erg zacht maar toch heel agressief. Zo heb ik dit proberen na te maken.
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
 
-### Optie 2: Brenner
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+## Bronnen
+- https://css-tricks.com/snippets/css/shake-css-keyframe-animation/
+- https://stackoverflow.com/questions/29441774/css-animate-transition-of-background-image-getting-darker
+- https://stackoverflow.com/questions/11977103/blur-effect-on-a-div-element
+- https://codepen.io/tedmcdo/pen/PqxKXg
+- https://blog.hubspot.com/website/css-fade-in
+- https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style
+- https://css-tricks.com/perfect-full-page-background-image/
+- https://www.deviantart.com/agusrockforlife/art/Broken-Glass-PNG-20-844424829.

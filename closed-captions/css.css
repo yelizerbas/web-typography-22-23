@@ -13,15 +13,41 @@ Feel free to adjust the defaults to your needs.
 #closed-captions .on {
 	opacity: 1;
 }
+
 #closed-captions .off {
 	transition: .2s;
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	font-family: "Brenner Sans";
+	font-style: medium;
+	font-weight: 600;
+	color: var(--color-white);
+	top: 3.5em;
 }
+
 .voice2 {
-	font-weight: bold;
+	font-family: "Brenner";
+	font-style: italic;
+	font-weight: 400;
+	color: var(--color-white);
+}
+
+.voice3 {
+	font-family: "Brenner";
+	font-style: italic;
+	font-weight: 700;
+	color: var(--color-red);
+	font-size: .6em;
+	text-transform: lowercase;
+}
+
+.voice4 {
+	font-family: "Brenner Sans";
+	font-style: medium;
+	font-weight: 600;
+	color: var(--color-white);
+	top: -3em;
 }
 
 /* **********************************************
@@ -32,76 +58,11 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
-	opacity: 0;
-	font-family: brenner;
-}
-.p0.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	font-weight: 200;
-}
-.p0.on span:nth-of-type(2) {
-	opacity: 1;
-	transition: 0s .4s;
-	margin-right: -.25em;
-	font-weight: 400;
-}
-.p0.on span:nth-of-type(3) {
-	opacity: 1;
-	transition: 0s .5s;
-	margin-right: -.25em;
-	font-weight: 600;
-}
-.p0.on span:nth-of-type(4) {
-	opacity: 1;
-	transition: 0s .7s;
-	margin-right: -.25em;
-	font-weight: 800;
-}
-.p0.on span:nth-of-type(5) {
-	opacity: 1;
-	transition: 0s 1.1s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
-}
-.p0.on span:nth-of-type(6) {
-	opacity: 1;
-	transition: 0s 1.4s;
-	margin-right: -.25em;
-	font-family: "brenner display";
-}
-.p0.on span:nth-of-type(7) {
-	opacity: 1;
-	transition: 0s 1.7s;
-	margin-right: -.25em;
-	font-family: "brenner script";
-}
-.p0.on span:nth-of-type(8) {
-	opacity: 1;
-	transition: 0s 2s;
-	font-family: "brenner script";
-}
-.p0.on span:nth-of-type(9) {
-	opacity: 1;
-	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
-}
-.p0.on span:nth-of-type(10) {
-	opacity: 1;
-	transition: 0s 3.2s;
-	font-family: "brenner mono";
-}
-.p0.on span:nth-of-type(11) {
-	opacity: 1;
-	transition: 0s 3.7s;
-	font-family: "brenner slab";
-}
 
-.p1.on {
-	background: hotpink;
-	color: red;
-}
+.p78.on {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+} 
 
 /* **********************************************
 Sounds.
@@ -110,31 +71,668 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: hotpink;
+.sound0 #video-mask {
+	animation-name: shake;
+	animation-duration: 1.5s;
 }
 
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
-	box-shadow: 2em 2em 2em olivedrab;
+
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-10px, 10px, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(10px, -10px, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-15px, -15px, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(15px, 15px, 0);
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+  .sound1 #video-mask {
+	animation-name: hartslag;
+	animation-duration: .8s;
 }
 
+.sound2 #video-mask {
+	animation-name: hartslag-2;
+	animation-duration: .8s;
+}
+
+.sound3 #video-mask {
+	animation-name: hartslag-3;
+	animation-duration: .8s;
+}
+
+.sound4 #video-mask {
+	animation-name: hartslag-4;
+	animation-duration: .8s;
+}
+
+.sound5 #video-mask {
+	box-shadow: 0 0 7em var(--color-red);
+	animation-name: hartslag-5;
+	animation-duration: .8s;
+}
+
+.sound6 #video-mask {
+	box-shadow: 0 0 7em var(--color-red);
+}
+
+.sound7 #video-mask {
+	box-shadow: 0 0 7em var(--color-none);
+	animation-name: hartslag-6;
+	animation-duration: .8s;
+}
+
+  @keyframes hartslag {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .9;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+  @keyframes hartslag-2 {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .9;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+  @keyframes hartslag-3 {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .9;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+  @keyframes hartslag-4 {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .95;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+  @keyframes hartslag-5 {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .95;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+  @keyframes hartslag-6 {
+	0% {
+	  scale: 1;
+	}
+	50% {
+	  scale: .95;
+	}
+	100% {
+	  scale: 1;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.sound8 #video-mask::before {
+	content: "";
+	background-color: var(--color-red);
+	width: 22em;
+	height: 22em;
+	border-radius: 15em;
+	filter: blur(1.5em);
+	position: absolute;
+	left: 2em;
+	top: 10%;
+	transition: .3s;
+}
+
+.sound8 #video-mask::after{
+	content: "";
+	background-color: var(--color-blue);
+	width: 22em;
+	height: 22em;
+	border-radius: 15em;
+	filter: blur(1.5em);
+	position: absolute;
+	right: 2em;
+	top: 10%;
+	transition: .3s;
+}
+
+.sound9 #video-mask::before {
+	content: "";
+	background-color: var(--color-none);
+	transition: .3s;
+}
+
+.sound9 #video-mask::after {
+	content: "";
+	background-color: var(--color-none);
+	transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sound10 #video-mask {
+	box-shadow: 0 0 6em var(--color-blue);
+	animation: kleiner 2s;
+	transition: .3s;
+}
+
+.sound11 {
+	background-color: var(--color-dark-blue);
+}
+
+.sound12 #video-mask {
+	box-shadow: var(--color-none);
+	transition: .3s;
+}
+
+.sound12 {
+	background-color: var(--color-black);
+	
+}
+
+.sound13 #video-mask {
+	box-shadow: 0 0 6em var(--color-blue);
+	animation: kleiner2 2s;
+	transition: .3s;
+}
+
+.sound14 {
+	background-color: var(--color-dark-blue);
+}
+
+.sound15 {
+	transition: .1s;
+	background-color: var(--color-black);
+}
+
+.sound15 #video-mask {
+	box-shadow: var(--color-none);
+	transition: .3s;
+}
+
+@keyframes kleiner {
+	0%{
+		scale: 1;
+	}
+	60%{
+		scale: 0.9;
+	}
+	90% {
+		scale: 1.1;
+	}
+	100% {
+		scale: 1;
+	}
+}
+
+@keyframes kleiner2 {
+	0%{
+		scale: 1;
+	}
+	60%{
+		scale: 0.9;
+	}
+	90% {
+		scale: 1.1;
+	}
+	100% {
+		scale: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.sound16 {
+	box-shadow: inset 0 0 20em var(--color-blue);
+}
+
+.sound16 #video-mask{
+	animation: heen-en-weer .8s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+
+.sound17 #video-mask{
+	animation: heen-en-weer-2 .2s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+}
+
+@keyframes heen-en-weer {
+	0%, 100% {
+	  transform: translate3d(0px, -10px, 0);
+	}
+	50% {
+	  transform: translate3d(0px, 5px, 0);
+	}
+}
+
+@keyframes heen-en-weer-2 {
+	0%, 100% {
+	  transform: translate3d(0px, 5px, 0);
+	}
+	50% {
+	  transform: translate3d(0px, -5px, 0);
+	}
+}
+
+
+
+
+
+
+
+
+.sound18 {
+	box-shadow: var(--color-none);
+}
+
+.sound18 #video-mask {
+	box-shadow: 0 0 6em var(--color-blue);
+	animation: kleiner-3 2s;
+	transition: .3s;
+}
+
+.sound19 {
+	background-color: var(--color-dark-blue);
+}
+
+.sound20 #video-mask {
+	box-shadow: var(--color-none);
+	transition: .3s;
+}
+
+.sound20 {
+	background-color: var(--color-black);
+	
+}
+@keyframes kleiner-3 {
+	0%{
+		scale: 1;
+	}
+	60%{
+		scale: 0.9;
+	}
+	90% {
+		scale: 1.1;
+	}
+	100% {
+		scale: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.sound21 {
+	animation: achtergrondkleur 49s linear;
+	
+}
+
+@keyframes achtergrondkleur {
+	from { background-color: var(--color-green) }
+	  to { background-color: var(--color-blacker) }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sound22 #video-mask {
+	animation: claustrofobisch 49s, schudden 1s infinite;
+}
+
+.sound23 #video-mask {
+	animation: claustrofobisch 49s, schudden-2 0.8s infinite;
+}
+
+.sound24 #video-mask {
+	animation: claustrofobisch 49s, schudden-3 0.7s infinite;
+}
+
+
+@keyframes claustrofobisch {
+	0%{
+		scale: 1;
+		box-shadow: 0 0 9em var(--color-blacker);
+	}
+	58%{
+		scale: 1.2;
+		box-shadow: 0 0 15em var(--color-blacker);
+	}
+	100%{
+		scale: 1.3;
+		box-shadow: 0 0 20em var(--color-blacker);
+	}
+}
+
+
+ @keyframes schudden {
+	10%, 90% {
+	  transform: translate3d(-5px, 10px, -5px);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(25px, 5px, 15px);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-10px, 15px, -9px);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(10px, -10px, 6px);
+	}
+  }
+
+  @keyframes schudden-2 {
+	10%, 90% {
+	  transform: translate3d(-10px, 15px, -5px);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(30px, 10px, 20px);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-15px, 20px, -14px);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(15px, -15px, 11px);
+	}
+  }
+
+  @keyframes schudden-3 {
+	10%, 90% {
+	  transform: translate3d(-15px, 20px, -10px);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(35px, 15px, 25px);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-20px, 25px, -19px);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(20px, -20px, 16px);
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sound25 #video-mask {
+	animation: none;
+	background-image: none;
+	box-shadow: none;
+}
+.sound25 {
+	background-image: url(assets/broken-glass.png);
+	background-color: var(--color-green);
+	animation: none;
+	background-size: cover;
+}
+
+/* scene 2 */
+.sound26 {
+	background-image: var(--color-none);
+}
+
+.sound26 #video-container {
+	animation: zweven 14s infinite;
+	box-shadow: 0 0 1em var(--color-black);
+}
+
+@keyframes zweven {
+	0%, 100% {
+		transform: translate3d(-50px, -35px, 0);
+	}
+	16.6% {
+		transform: translate3d(60px, 20px, 0);
+	}
+	33.3% {
+		transform: translate3d(20px, 90px, 0);
+	}
+	49.9% {
+		transform: translate3d(-70px, 30px, 0);
+	}
+	66.6% {
+		transform: translate3d(80px, -50px, 0);
+	}
+	90%{
+		transform: translate3d(-80px, 90px, 0);
+	}
+}
+
+.sound27 {
+	animation: hardtrillen .7s infinite;
+}
+
+.sound28 {
+	animation: mediumtrillen 1s infinite;
+}
+
+.sound29 {
+    animation: zachttrillen 1.5s infinite;
+}
+
+.sound30 {
+	animation: mediumtrillen 1s infinite;
+}
+
+.sound31 #video-mask {
+	animation: zweven 14s infinite;
+	animation: knipperen .2s;	
+	animation-iteration-count: 3;
+}
+
+@keyframes knipperen{
+	0%,100% {
+		box-shadow: 0 0 1em var(--color-none);
+	}
+	50% {
+		box-shadow: 0 0 1em var(--color-red);
+	}
+}
+
+.sound32{
+    animation: zachttrillen 1.5s infinite;
+}
+
+.sound33 {
+	animation: mediumtrillen 1s infinite;
+}
+
+.sound34{
+    animation: hardtrillen .6s infinite;
+}
+
+.sound35 {
+	animation: zachttrillen 1.5s infinite;
+}
+
+.sound36 {
+	animation: none;
+}
+
+.sound36 #video-container {
+	animation: none;
+}
+
+.sound36 #video-mask {
+	animation: none;
+}
+
+@keyframes hardtrillen {
+	10%, 90% {
+	  transform: translate3d(-10px, 10px, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(10px, -10px, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-15px, -15px, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(15px, 15px, 0);
+	}
+}
+
+@keyframes mediumtrillen {
+	10%, 90% {
+	  transform: translate3d(-7px, 7px, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(7px, -7px, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-10px, -10px, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(10px, 10px, 0);
+	}
+}
+
+@keyframes zachttrillen {
+	10%, 90% {
+	  transform: translate3d(-2px, 2px, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, -2px, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-3px, -3px, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(3px, 3px, 0);
+	}
+}
 
 /* **********************************************
 Basic layout.
 	Place the video in the center of the page.
-*********************************************  */
+********************************************** */
 
 body {
 	display: grid;
 	height: 100vh;
 	margin: 0;
 	justify-content: center;
+	background-color: var(--color-black);
+	font-size: 2em;
 }
+
 #video-container {
 	margin: auto;
 }
+
 #video-mask {
 	aspect-ratio: 240.5/100;
 	display: grid;
@@ -147,4 +745,15 @@ iframe {
 	width: 80vw;
 	height: 53.33333333vw;
 	margin-top: -0.35vw;
+}
+
+:root {
+	--color-red :rgb(201, 27, 27);
+	--color-blue :rgb(28, 17, 182);
+	--color-black: rgb(29, 29, 29);
+	--color-blacker: rgb(0, 0, 0);
+	--color-white: #ffffff;
+	--color-green: #97A88E;
+	--color-dark-blue: #101438;
+	--color-none: transparent;
 }
